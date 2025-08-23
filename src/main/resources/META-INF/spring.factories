@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.mercadona.supplychain.lib.common.kafka.KafkaConsumerMessageRepositoryAdapter,\
+com.mercadona.supplychain.lib.common.kafka.KafkaConsumerErrorMessageRepositoryAdapter,\
+com.mercadona.supplychain.lib.common.kafka.ConnectionConfig,\
+com.mercadona.supplychain.lib.common.kafka.metrics.CountedDeadLetterConfiguration,\
+com.mercadona.supplychain.lib.common.kafka.metrics.CountedBeanPostProcessor
