@@ -1,13 +1,13 @@
-package com.meby98.framework;
+package com.meby98.test_framework_kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FrameworkApplication {
+public class TestFrameworkKafkaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FrameworkApplication.class, args);
+		SpringApplication.run(TestFrameworkKafkaApplication.class, args);
 	}
 
 }

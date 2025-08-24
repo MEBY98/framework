@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: test-framework-kafka
+
+meby98:
+  fwk:
+    kafka:
+      enabled: true
+      rest-proxy:
+        enabled: true
+      admin:
+        bootstrap.servers: localhost:9092
+        client.id: ${spring.application.name}
+      topics:
+        - name: "TOPIC_1"
+          partitions: 1
+          replicaFactor: 1
+        - name: "TOPIC_2"
+          partitions: 1
+          replicaFactor: 1
