@@ -2,3 +2,8 @@ com.meby98.TopicConfiguration
 com.meby98.AdminConfiguration
 com.meby98.KafkaAdminRestController
 com.meby98.KafkaAdminTopicService
+com.mercadona.supplychain.lib.common.kafka.KafkaConsumerMessageRepositoryAdapter
+com.mercadona.supplychain.lib.common.kafka.KafkaConsumerErrorMessageRepositoryAdapter
+com.mercadona.supplychain.lib.common.kafka.ConnectionConfig
+com.mercadona.supplychain.lib.common.kafka.metrics.CountedDeadLetterConfiguration
+com.mercadona.supplychain.lib.common.kafka.metrics.CountedBeanPostProcessor
