@@ -32,6 +32,7 @@
 		<maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
 		<gson.version>2.13.1</gson.version>
 		<io.micrometer.version>1.15.3</io.micrometer.version>
+		<org.apache.commons.lang3.version>3.18.0</org.apache.commons.lang3.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -61,6 +62,12 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${org.apache.commons.lang3.version}</version>
 		</dependency>
 
 		<dependency>
